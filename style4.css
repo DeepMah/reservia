@@ -27,10 +27,6 @@ header,
 	justify-content: space-between;
 }
 
-.header {
-	flex: 1;
-}
-
 nav {
 	display: flex;
 	justify-content: space-between;
@@ -171,6 +167,7 @@ li.register:hover {
     border: 1.5px solid #ccc;
     border-radius: 25px;
 	font-weight: bold;
+	border: solid red;
 }
 
 
