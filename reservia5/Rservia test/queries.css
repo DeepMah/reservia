@@ -1,0 +1,158 @@
+@media screen and (max-width: 1000px) {
+	
+	/***** Bloc hébergemment*/
+	.hebergement {
+		display: flex;
+		flex-direction: column;
+		width: 99%;
+		margin: 1%;
+	}
+	.container {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		width: 99%;
+		background-color: #F2F2F2;
+		border-radius: 10px;
+		margin: 1%;
+	}
+	.box {
+		width: 94.5%;
+		height: 25%;
+		margin: 1.5%;
+		padding: 1.5%;
+		background-color: white;
+		border-radius: 30px;
+		box-shadow: 0 0 16px #0000002e;
+	}
+	/***** Les plus populaires*/
+	.plus-populaire {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		width: 99%;
+		height: auto;
+		background-color: #F2F2F2;
+		border-radius: 10px;
+		margin: 1%;
+	}
+	.box2 {
+		align-items: center;
+		width: 98%;
+		height: 25%;
+		background-color: white;
+		border-radius: 30px;
+		box-shadow: 0 0 16px #0808082e;
+		margin: 1%;
+	}
+}
+
+
+/*** Activités */
+
+
+#activites {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	width: 95%;
+	margin: 1%;
+}
+
+.activites {
+	display: flex;
+	flex-wrap: wrap;
+	width: 99%;
+	height: 40%;
+	margin: 1%;
+	border-radius: 30px;
+	text-align: center;
+}
+
+
+
+@media (max-width:650px) {
+    #blocpage {
+        width: 100%;
+        margin: auto;
+    }
+	header {
+		margin-left: 0;
+		margin-right: 0;
+	}
+	header,
+	img {
+		margin-top: 10px;
+	}
+	nav {
+		width: 100%;
+		margin: 40px 0;
+	}
+	nav ul {
+		width: 100%;
+	}
+	nav li {
+		flex: 1;
+		padding: 0;
+		text-align: center;
+		border-bottom: 3px solid #f2f2f2;
+	}
+	nav li a:hover,
+	nav li a:active {
+		display: block;
+		margin-top: 0px;
+		margin-bottom: -3px;
+		color: #0065fc;
+		border-top: none;
+		border-bottom: 3px solid #0065fc;
+	}
+	.register {
+		position: absolute;
+		top: 35px;
+		right: 20px;
+	}
+	
+	.formulaire {
+		display: none;
+	}
+	.loupe {
+		display: initial;
+		height: 50px;
+		width: 40%;
+		background-color: #0065FC;
+		color: white;
+		border-radius: 0 10px 10px 0;
+	}
+	.loupeicone {
+		margin-top: 15px;
+		margin-left: 25px;
+	}
+	.container {
+		order: 2;
+		width: 100%;
+		background-color: white;
+	}
+	.afficherplus{
+		font-size: 20px;
+	}
+	.grid-item2{
+		padding-top: 1px;
+	}
+	.activites {
+		flex-direction: column;
+		align-content: center;
+		width: 100%;
+	}
+	.activites img {
+		height: 150px;
+		width: 98%;
+	}
+	.activites .large img,
+	.activites .medium1 img,
+	.activites .medium2 img,
+	.activites .small1 img,
+	.activites .small2 img {
+		max-height: 200px;
+		object-fit: cover;
+	}
+}
